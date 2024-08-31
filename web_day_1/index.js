@@ -68,7 +68,7 @@
 
 // console.log(!!xe);
 
-const x = 3;
+// const x = 3;
 // const y = 6;
 // const z = 2.3;
 // const result = x + y + z;
@@ -83,4 +83,4 @@ const x = 3;
 // console.log(10 / 3);
 // console.log(8 % 10);
 
-console.log(isNaN("10"));
+// console.log(isNaN("10"));
