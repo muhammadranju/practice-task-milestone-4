@@ -137,13 +137,127 @@
 // }
 
 // console.log(5 % 5);
-let i = 0;
-do {
-  console.log(i);
-  i++;
-} while (i <= 10);
+// let i = 0;
+// do {
+//   console.log(i);
+//   i++;
+// } while (i <= 10);
 
-while (i <= 10) {
-  console.log(i);
-  i++;
-}
+// while (i <= 10) {
+//   console.log(i);
+//   i++;
+// }
+
+// All task
+//--------------------------//
+
+// task 1
+// let i = 0;
+// while (i <= 60) {
+//   console.log(
+//     `I will invest at least 6 hrs every single day for next 60 days! ${i}`
+//   );
+//   i++;
+// }
+
+// Subtask-1
+// let i = 61;
+// let sum = 0;
+// while (i < 100) {
+//   if (i % 2 !== 0) {
+//     console.log(`Even Number: ${i}`);
+//     sum += i;
+//   }
+//   i++;
+// }
+// console.log(sum);
+
+// Subtask-2
+// let i = 78;
+// let sum = 0;
+// while (i <= 98) {
+//   if (i % 2 === 0) {
+//     console.log(`Even Number: ${i}`);
+//     sum += i;
+//   }
+//   i++;
+// }
+// console.log(sum);
+
+// task 2 - Multiplication Table
+// const number = 9;
+// for (let i = 1; i <= 10; i++) {
+//   const result = i * number;
+//   console.log(`${number} * ${i} = ${result}`);
+// }
+
+// task 3
+// let i = 21;
+// while (i <= 100) {
+//   console.log(`counts down ${i} using  while loop`);
+//   if (i === 15) break;
+//   i--;
+// }
+// for (let i = 21; i >= 15; i--) {
+//   console.log(`counts down ${i} using for loop`);
+//   //   if (i === 15) break;
+// }
+
+// task 4
+// for (let i = 1; i <= 100; i++) {
+//   console.log(i);
+//   if (i >= 100) {
+//     console.log(`I'm reached to ${i} i'm done`);
+//     break;
+//   }
+// }
+
+// task 5
+// let sum = 0;
+// for (let i = 1; i <= 200; i++) {
+//   sum += i;
+//   if (sum >= 100) {
+//     console.log(`I'm reached to ${sum} i'm done`);
+//     break;
+//   }
+// }
+// console.log(sum);
+
+// task 6
+// const squareNumber = [];
+// for (let i = 2; i <= 100; i++) {
+//   if (Number.isInteger(Math.sqrt(i))) {
+//     console.log(`First square number is: ${i}`);
+//     squareNumber.push(i);
+//   }
+//   if (squareNumber.length >= 5) {
+//     break;
+//   }
+// }
+
+// console.log(`First 4 square numbers are: [${squareNumber}]`);
+
+// let i = 0;
+// while (i < 5) {
+//   console.log(i);
+//   i++;
+// }
+
+// for (let i = 0; i <= 10; i++) {
+//   console.log(i);
+// }
+
+// let mySelf = {
+//   name: "Md Ranju",
+//   age: 21,
+//   hobby: "programming",
+//   address: "Dhaka",
+//   country: "Bangladesh",
+//   skills: ["HTML", "CSS", "JS"],
+//   isMarried: false,
+//   favColor: ["black", "white", "red", "green"],
+// };
+
+// for (let nam in mySelf) {
+//   console.log(`${nam}: ${mySelf[nam]}`);
+// }
