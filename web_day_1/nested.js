@@ -129,11 +129,21 @@
 // }
 // console.log(total);
 
-for (let i = 0; i <= 20; i++) {
-  if (i % 2 === 1) {
-    continue;
-  }
-  console.log(i);
-}
+// for (let i = 0; i <= 20; i++) {
+//   if (i % 2 === 1) {
+//     continue;
+//   }
+//   console.log(i);
+// }
 
-console.log(5 % 5);
+// console.log(5 % 5);
+let i = 0;
+do {
+  console.log(i);
+  i++;
+} while (i <= 10);
+
+while (i <= 10) {
+  console.log(i);
+  i++;
+}
