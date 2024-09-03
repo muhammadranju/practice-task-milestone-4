@@ -247,16 +247,16 @@
 //   console.log(i);
 // }
 
-// let mySelf = {
-//   name: "Md Ranju",
-//   age: 21,
-//   hobby: "programming",
-//   address: "Dhaka",
-//   country: "Bangladesh",
-//   skills: ["HTML", "CSS", "JS"],
-//   isMarried: false,
-//   favColor: ["black", "white", "red", "green"],
-// };
+let mySelf = {
+  name: "Md Ranju",
+  age: 21,
+  hobby: "programming",
+  address: "Dhaka",
+  country: "Bangladesh",
+  skills: ["HTML", "CSS", "JS"],
+  isMarried: false,
+  favColor: ["black", "white", "red", "green"],
+};
 
 // for (let nam in mySelf) {
 //   console.log(`${nam}: ${mySelf[nam]}`);
