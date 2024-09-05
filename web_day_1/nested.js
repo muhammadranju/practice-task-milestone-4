@@ -261,3 +261,5 @@ let mySelf = {
 // for (let nam in mySelf) {
 //   console.log(`${nam}: ${mySelf[nam]}`);
 // }
+
+console.log(mySelf);

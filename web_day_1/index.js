@@ -294,7 +294,7 @@
 
 // console.log(count);
 
-const arr = ["Md Ranju", 300, "programmer"];
+// const arr = ["Md Ranju", 300, "programmer"];
 
 // const obj = {
 //   name: "Md Ranju",
@@ -306,4 +306,110 @@ const arr = ["Md Ranju", 300, "programmer"];
 
 // const [firstName, age, hobby] = arr; // Array destructuring
 
-arr.pop();
+// arr.pop();
+
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+// const flower = ["Rose", "Lily", "Jasmine", "Tulip"];
+// const number = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+// // const allArr = [...fruits, ...flower, ...number];
+// const newArr = fruits.concat(flower, number);
+// console.log(newArr);
+
+// console.log(fruits.indexOf("Apples"));
+
+// console.log(Array.isArray(newArr));
+
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+
+// const rev = fruits.reverse();
+// for (let i = 0; i < rev.length; i++) {
+//   console.log(rev[i]);
+// }
+// console.log(rev);
+
+// const me = "I am a web developer";
+// console.log(about.toC);
+// function capitalizeFirstLetter(string) {
+//   return string.charAt(0).toUpperCase() + string.slice(1);
+// }
+// console.log(capitalizeFirstLetter(about));
+
+// let str = "simple example";
+// let capitalizedStr = str[0].toUpperCase() + str.slice(1);
+
+// console.log(capitalizedStr); // Output: "Simple example"
+
+// let mainText = "convert this text to uppercase";
+// let newTexts = mainText.split(" ");
+// let toCapitalize = "";
+
+// for (let text of newTexts) {
+//   toCapitalize += text[0].toUpperCase() + text.slice(1) + " ";
+// }
+// console.log(toCapitalize);
+
+// let mainText = "convert this text to uppercase";
+// let addText = "";
+// let text = mainText.split(" ");
+// for (let newTexts of text) {
+//   addText += newTexts[0].toUpperCase().concat(newTexts.substring(1) + " ");
+// }
+// console.log(addText);
+
+// let mainText = "convert this text to uppercase";
+// let newTexts = mainText.split(" ");
+// let toCapitalize = "";
+
+// for (let text of newTexts) {
+//   toCapitalize += text[0].toUpperCase().concat(text.substring(1) + " ");
+// }
+// console.log(toCapitalize);
+
+// #8080800a
+
+// const obj = {
+//   name: "Ranju",
+//   age: 20,
+//   city: "Rajshahi",
+// };
+
+// // console.log(obj.name);
+// // console.log(Object.values(obj["city"]));
+// // console.log(obj["city"]);
+
+// for (let i of Object.values(obj)) {
+//   console.log(i);
+//   console.log(typeof i);
+// }
+
+// Array of book objects
+// const books = [
+//   { title: "The Great Gatsby", author: "F. Scott Fitzgerald", year: 1925 },
+//   { title: "To Kill a Mockingbird", author: "Harper Lee", year: 1960 },
+//   { title: "1984", author: "George Orwell", year: 1949 },
+// ];
+
+// const bookTitle = "1984";
+
+// const foundBook = books.find((book) => book.title === bookTitle);
+
+// if (foundBook) {
+//   console.log("Book found:", foundBook);
+// } else {
+//   console.log("Book not found.");
+// }
+
+// const person1 = {
+//   name: "Ranju",
+//   age: 32,
+// };
+// const person2 = {
+//   name1: "Amin",
+//   age1: 30,
+// };
+
+// const text = "Hello";
+// console.log(...text);
+// const person = { ...person1, ...person2 };
+// console.log(person);
