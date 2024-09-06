@@ -413,3 +413,131 @@
 // console.log(...text);
 // const person = { ...person1, ...person2 };
 // console.log(person);
+// const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// // console.log(arr);
+
+// /**
+//  * Shuffles the elements of the provided array in-place.
+//  * @param {Array} array - The array to be shuffled.
+//  * @returns {void} This function modifies the input array directly.
+//  */
+// function shuffleArray(array) {
+//   return array.sort(() => {
+//     return Math.random() - 0.5;
+//   });
+// }
+
+// console.log(shuffleArray(arr));
+
+// // console.log(Math.random() - 0.5);
+
+// console.log(arr);
+
+// ascending order and descending order
+// const arr = [4, 5, 3, 8, 9, 1, 2, 0, 10, 24, 36, 45, 55];
+// const copyArr = [...arr];
+
+// const sortFunction = function (arr, sort = "asc") {
+//   return arr.sort((a, d) => {
+//     if (sort !== "asc") {
+//       return d - a;
+//     }
+//     return a - d;
+//   });
+// };
+
+// console.log("main arr", arr);
+
+// console.log("Copy arr", sortFunction(copyArr, "dsc"));
+
+// const numbers = ["Tom", "Tim", "Tin", "Tik"];
+// let result = "";
+// for (let arr of numbers) {
+//   result += arr;
+// }
+// console.log(result);
+
+// const statement = "I am a hard working person";
+
+// const newStatement = statement.split(" ").reverse().join(" ");
+// console.log(newStatement);
+
+// const employees = [
+//   { name: "Alice", department: "HR" },
+//   { name: "Bob", department: "Engineering" },
+//   { name: "Charlie", department: "HR" },
+//   { name: "David", department: "Engineering" },
+//   { name: "Eve", department: "Marketing" },
+// ];
+
+// // for (let department in employees) {
+// //   console.log(employees[department]);
+// // }
+
+// const search = "Engineering";
+// const findDepartment = employees.find(function (department) {
+//   return department.department === search;
+// });
+// console.log(findDepartment);
+
+// const latter = "amar bAnglAdesh ami tumi balo Base";
+
+// let count = 0;
+// let count1 = 0;
+
+// const obj = {
+//   name: null,
+//   age: 32,
+//   city: "Rajshahi",
+// };
+
+// const num = null;
+
+// if (obj?.name) {
+//   console.log("Okk");
+// }
+// // console.log(obj?.name);
+
+// const findLatter = "a";
+// for (let i of latter) {
+//   if (i === findLatter) {
+//     count++;
+//   }
+//   if (i === findLatter.toUpperCase()) {
+//     count1++;
+//   }
+// }
+// console.log(count);
+// console.log(count1);
+
+// const str = "I am a good boy";
+// const isVowel = "a,e,i,o,u";
+// const newStr = str.split("");
+// for (let i of newStr) {
+//   if (isVowel.includes(i)) {
+//     console.log(i);
+//   }
+//   console.log(i);
+// }
+
+// let latter = "Bangladesh is A beautiful country";
+// for (let i of latter) {
+//   latter = latter.replaceAll("B", "A");
+//   latter = latter.replaceAll("b", "a");
+// }
+// console.log(latter);
+
+let mainText = "convert this text to uppercase";
+let newTexts = mainText.split(" ");
+let toCapitalize = "";
+
+for (let text of newTexts) {
+  toCapitalize += text[0].toUpperCase().concat(text.slice(1)) + " ";
+}
+console.log(toCapitalize);
+
+const finalSentence = mainText.replace(/(^\w{1})|(\s+\w{1})/g, (letter) =>
+  letter.toUpperCase()
+);
+
+console.log(finalSentence);
