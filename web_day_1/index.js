@@ -527,17 +527,17 @@
 // }
 // console.log(latter);
 
-let mainText = "convert this text to uppercase";
-let newTexts = mainText.split(" ");
-let toCapitalize = "";
+// let mainText = "convert this text to uppercase";
+// let newTexts = mainText.split(" ");
+// let toCapitalize = "";
 
-for (let text of newTexts) {
-  toCapitalize += text[0].toUpperCase().concat(text.slice(1)) + " ";
-}
-console.log(toCapitalize);
+// for (let text of newTexts) {
+//   toCapitalize += text[0].toUpperCase().concat(text.slice(1)) + " ";
+// }
+// console.log(toCapitalize);
 
-const finalSentence = mainText.replace(/(^\w{1})|(\s+\w{1})/g, (letter) =>
-  letter.toUpperCase()
-);
+// const finalSentence = mainText.replace(/(^\w{1})|(\s+\w{1})/g, (letter) =>
+//   letter.toUpperCase()
+// );
 
-console.log(finalSentence);
+// console.log(finalSentence);
